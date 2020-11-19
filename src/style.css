@@ -1,0 +1,41 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  color: #292929;
+}
+
+.success {
+  color: #0ff40f;
+}
+
+.error {
+  color: #960303;
+}
+
+
+.icon {
+	color: #fff;
+}
+
+.left {
+	display: flex;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+  	position: absolute;
+  	top: 10%;
+  	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.right {
+	display: flex;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+  	position: absolute;
+  	top: 10%;
+  	background-color: rgba(41, 41, 41, 0.8);
+  	color: #fff;
+
+}
